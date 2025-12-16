@@ -1,9 +1,8 @@
 name: yanfeihong5672
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '3 3/6 * * *'
 
 jobs:
   build:
@@ -12,15 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanfeihong5672
         env:
-          uxye96153: ${{ secrets.uxye96153 }}
+          lqlz16: ${{ secrets.lqlz16 }}
         run: |
-          echo $uxye96153 | jq -r .phu97049 | /bin/bash
-          echo $lo4 | jq -r .unfre75691 | /bin/bash
-          echo $yjkt54 | jq -r .ppuny0329 | /bin/bash
-          echo $s86 | jq -r .nc97142 | /bin/bash
-          echo $r1 | jq -r .qci55681 | /bin/bash
-          echo $xu13955 | jq -r .bfkr32 | /bin/bash
-          echo $pb03749 | jq -r .v921 | /bin/bash
-          echo $raj16 | jq -r .g51 | /bin/bash
-          echo $zoye12 | jq -r .t22292 | /bin/bash
+          echo $lqlz16 | jq -r .iduin6 | /bin/bash
+          echo $aou233 | jq -r .lrbw448 | /bin/bash
+          echo $z8072 | jq -r .hwlpm68199 | /bin/bash
+          echo $bt5 | jq -r .qbyt540 | /bin/bash
 
